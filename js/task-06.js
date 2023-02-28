@@ -2,8 +2,6 @@ let inputEl = document.querySelector('#validation-input');
 
 let inputLength = inputEl.dataset.length;
 
-const input = document.querySelector('input');
-
 inputEl.addEventListener('change', string => {
   const text = string.target.value;
 

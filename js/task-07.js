@@ -5,7 +5,8 @@ textEl.style.fontSize = '16px';
 inputEl.addEventListener('input', onChangeSize);
 
 function onChangeSize(even) {
-    let factor = even.target.valueAsNumber * 0.32;
+  // let factor = inputEl.value
+  let factor = even.target.valueAsNumber * 0.32;
     
-    textEl.style.fontSize = `${factor}px`;
+  textEl.style.fontSize = `${factor}px`;
 };

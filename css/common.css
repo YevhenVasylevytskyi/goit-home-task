@@ -24,14 +24,15 @@ button {
 }
 
 .gallery {
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;  
 }
 
 .gallery__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .gallery__image {
-  width: 640px;
+  width: 430px;
 }
