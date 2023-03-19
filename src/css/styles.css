@@ -18,3 +18,14 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-title {
+  /* width: 100%; */
+  /* margin: 0 auto;*/
+  text-align: center 
+}
+
+.country-container {
+  display: flex;
+  justify-content: space-evenly;
+}
