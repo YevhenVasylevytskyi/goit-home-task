@@ -1,11 +1,10 @@
+import pictureItem from './templates/pictureItem.hbs';
 const API_KEY = '23013902-f53df9bcd1cd3c8e660b93280';
 const BASE_URL = 'https://pixabay.com/api/';
-import pictureItem from './templates/pictureItem.hbs';
-
 
 const inputForm = document.querySelector('#search-form');
 
-console.log(inputForm)
+// console.log(inputForm)
 
 function fetchPictures(query) {
 
@@ -25,5 +24,3 @@ const renderQuery = ({ hits }) => {
     const result = pictureItem(hits)
     inputForm.insertAdjacentHTML('afterend', result);
 }
-
-// inputForm.insertAdjacentHTML(afterend, result);
